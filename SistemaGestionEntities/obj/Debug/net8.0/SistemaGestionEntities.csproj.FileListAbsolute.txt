@@ -1,0 +1,11 @@
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\bin\Debug\net8.0\SistemaGestionEntities.deps.json
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\bin\Debug\net8.0\SistemaGestionEntities.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\bin\Debug\net8.0\SistemaGestionEntities.pdb
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.AssemblyInfoInputs.cache
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.AssemblyInfo.cs
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.csproj.CoreCompileInputs.cache
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\refint\SistemaGestionEntities.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.pdb
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\ref\SistemaGestionEntities.dll

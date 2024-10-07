@@ -1,0 +1,78 @@
+﻿@page "/productosvendidos"
+@inject ProductoVendidoServices Service
+
+<h3>Productos</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <a href="/productos/new">
+                <button type="button" class="btn btn-success">Crear</button>
+            </a>
+        </div>
+        <div class="col-6">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Filtrar por..." @bind="filtro" />
+                <button type="button" class="btn btn-outline-secondary" @onclick="Buscar">Buscar</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Id Producto</th>
+                    <th>Stock</th>
+                    <th>Id Venta</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (ProductoVendido producto in productos)
+                {
+                    <tr>
+                        <td>@producto.Id</td>
+                        <td>@producto.IdProducto</td>
+                        <td>@producto.Stock</td>
+                        <td>@producto.IdVenta</td>
+                        <td>
+                            <a href="/productosVendidos/@producto.Id/Editar">Editar</a>
+                        </td>
+                        <td>
+                            <button @onclick="@(() => EliminarProducto(producto.Id))" class="btn btn-danger">
+                                Eliminar
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+
+@code {
+    private List<ProductoVendido> productos = [];
+
+    private string filtro = string.Empty;
+
+    protected override void OnInitialized()
+    {
+
+        productos = Service.GetProductosVendidos();
+    }
+
+    public void EliminarProducto(int id)
+    {
+        Service.DeleteProductoVendido(id);
+        productos = Service.GetProductosVendidos();
+    }
+
+    public void Buscar()
+    {
+        productos = Service.GetProductosVendidosBy(filtro);
+    }
+}

@@ -1,0 +1,17 @@
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\SistemaGestionData.csproj.AssemblyReference.cache
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\SistemaGestionData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\SistemaGestionData.AssemblyInfoInputs.cache
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\SistemaGestionData.AssemblyInfo.cs
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\SistemaGestionData.csproj.CoreCompileInputs.cache
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\bin\Debug\net8.0\SistemaGestionData.deps.json
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\bin\Debug\net8.0\SistemaGestionData.runtimeconfig.json
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\bin\Debug\net8.0\SistemaGestionData.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\bin\Debug\net8.0\SistemaGestionData.pdb
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\bin\Debug\net8.0\SistemaGestionEntities.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\bin\Debug\net8.0\SistemaGestionEntities.pdb
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\SistemaG.92EE484C.Up2Date
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\SistemaGestionData.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\refint\SistemaGestionData.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\SistemaGestionData.pdb
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\SistemaGestionData.genruntimeconfig.cache
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\ref\SistemaGestionData.dll

@@ -1,0 +1,17 @@
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\bin\Debug\net8.0\SistemaGestionBussiness.deps.json
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\bin\Debug\net8.0\SistemaGestionBussiness.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\bin\Debug\net8.0\SistemaGestionBussiness.pdb
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\bin\Debug\net8.0\SistemaGestionData.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\bin\Debug\net8.0\SistemaGestionEntities.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\bin\Debug\net8.0\SistemaGestionData.pdb
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\bin\Debug\net8.0\SistemaGestionEntities.pdb
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\obj\Debug\net8.0\SistemaGestionBussiness.csproj.AssemblyReference.cache
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\obj\Debug\net8.0\SistemaGestionBussiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\obj\Debug\net8.0\SistemaGestionBussiness.AssemblyInfoInputs.cache
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\obj\Debug\net8.0\SistemaGestionBussiness.AssemblyInfo.cs
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\obj\Debug\net8.0\SistemaGestionBussiness.csproj.CoreCompileInputs.cache
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\obj\Debug\net8.0\SistemaG.5E9AE94B.Up2Date
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\obj\Debug\net8.0\SistemaGestionBussiness.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\obj\Debug\net8.0\refint\SistemaGestionBussiness.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\obj\Debug\net8.0\SistemaGestionBussiness.pdb
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionBussiness\obj\Debug\net8.0\ref\SistemaGestionBussiness.dll
