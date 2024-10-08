@@ -1,23 +1,23 @@
 ﻿@page "/usuarios/{id:int}/editar"
 @inject UsuarioServices Service
+
 <h3>Editar Usuario</h3>
 
 @if (usuario == null)
 {
-  <p>Usuario no encontrado</p>
+    <p>Usuario no encontrado</p>
 }
 else
 {
-
-  <UsuariosForm Usuario="usuario" />
-
+    <UsuariosForm Usuario="usuario" />
 }
 
 @code {
-    private Usuario? usuario;
 
     [Parameter]
     public int Id { get; set; }
+
+    private Usuario? usuario;
 
     protected override void OnInitialized()
     {

@@ -1,7 +1,7 @@
 ﻿@inject NavigationManager NavigationManager
 @inject ProductoVendidoServices Service
 
-<EditForm Model="ProductoVendido" OnValidSubmit="CrearOActualizarProducto" FormName="productos-form">
+<EditForm Model="ProductoVendido" OnValidSubmit="CrearOActualizarProducto" FormName="productosVendidos-form">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
@@ -27,11 +27,13 @@
 
 
     [Parameter]
-    public ProductoVendido ProductoVendido { get; set; }
+    public ProductoVendido ProductoVendido { get; set; } = null!;
+
     protected override void OnInitialized()
     {
 
     }
+
     public void CrearOActualizarProducto()
     {
         if (ProductoVendido.Id > 0)

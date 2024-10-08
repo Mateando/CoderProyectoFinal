@@ -1,5 +1,5 @@
 ﻿@inject NavigationManager NavigationManager
-@inject ProductosService Service
+@inject ProductosServices Service
 
 <EditForm Model="Producto" OnValidSubmit="CrearOActualizarProducto" FormName="productos-form">
     <DataAnnotationsValidator />
@@ -40,11 +40,13 @@
 
 
     [Parameter]
-    public Producto Producto { get; set; }
+    public Producto Producto { get; set; } = null!;
+
     protected override void OnInitialized()
     {
 
     }
+
     public void CrearOActualizarProducto()
     {
         if(Producto.Id > 0)

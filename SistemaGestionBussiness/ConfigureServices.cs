@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using SistemaGestionBussiness.Services;
 using SistemaGestionData;
 
+
 namespace SistemaGestionBussiness;
 
 public static class ConfigureServices
@@ -15,7 +16,13 @@ public static class ConfigureServices
     public static IServiceCollection ConfigureBusinessLayer(this IServiceCollection services)
     {
         services.ConfigureDataLayer();
-        services.AddScoped<ProductosService>();
+
+        services.AddScoped<ProductosServices>();
+        services.AddScoped<UsuarioServices>();
+        services.AddScoped<VentaServices>();
+        services.AddScoped<ProductoVendidoServices>();
+
+        
 
         return services;
     }

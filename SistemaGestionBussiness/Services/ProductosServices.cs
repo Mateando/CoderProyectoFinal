@@ -1,18 +1,20 @@
-﻿using SistemaGestionData.DataAccess;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using SistemaGestionEntities;
+using SistemaGestionData.DataAccess;
+
 
 namespace SistemaGestionBussiness.Services;
 
-public class ProductosService
+public class ProductosServices
 {
-    private ProductosDataAccess _productosDataAccess;
+    private readonly ProductosDataAccess _productosDataAccess;
 
-    public ProductosService(ProductosDataAccess productosDataAccess)
+    public ProductosServices(ProductosDataAccess productosDataAccess)
     {
         _productosDataAccess = productosDataAccess;
     }

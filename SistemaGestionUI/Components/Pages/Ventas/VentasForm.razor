@@ -19,15 +19,16 @@
     <button type="submit" class="btn btn-primary">Guardar</button>
 </EditForm>
 
+
 @code {
-
-
     [Parameter]
-    public Venta venta { get; set; }
+    public Venta venta { get; set; } = null!;
+
     protected override void OnInitialized()
     {
 
     }
+
     public void CrearOActualizarVenta()
     {
         if(venta.Id > 0)

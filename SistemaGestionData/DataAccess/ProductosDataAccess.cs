@@ -1,13 +1,8 @@
-﻿
-using Microsoft.EntityFrameworkCore;
-using SistemaGestionData.Context;
-using SistemaGestionEntities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using SistemaGestionData.Context;
 using SistemaGestionEntities;
 
@@ -29,9 +24,7 @@ public class ProductosDataAccess
 
     public List<Producto> GetProductosBy(string filtro)
     {
-        return _context.Productos
-            .Where(producto => producto.Category.Contains(filtro))
-        .ToList();
+        return _context.Productos.Where(producto => producto.Category.Contains(filtro)).ToList();
     }
 
     public Producto? GetOneProducto(int id)
@@ -54,7 +47,6 @@ public class ProductosDataAccess
             _context.SaveChanges();
         }
     }
-
     public void InsertProducto(Producto producto)
     {
         _context.Productos.Add(producto);
@@ -67,6 +59,26 @@ public class ProductosDataAccess
         if (productoAEliminar != null)
         {
             _context.Productos.Remove(productoAEliminar);
+            _context.SaveChanges();
+        }
+    }
+
+    public void UpdateTotalPrice(int id)
+    {
+        Producto? producto = GetOneProducto(id);
+        if (producto != null)
+        {
+            producto.TotalPrice = producto.Stock * producto.SellValue;
+            _context.SaveChanges();
+        }
+    }
+
+    public void UpdateTotalProductos()
+    {
+        var productos = GetProductos();
+        foreach (var producto in productos)
+        {
+            producto.TotalPrice = producto.Stock * producto.SellValue;
             _context.SaveChanges();
         }
     }

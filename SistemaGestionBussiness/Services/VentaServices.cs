@@ -5,11 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 
 using SistemaGestionEntities;
+using SistemaGestionData.DataAccess;
 
 namespace SistemaGestionBussiness.Services;
 
 public class VentaServices
 {
+    private VentaDataAccess _ventaDataAccess;
+
+    public VentaServices(VentaDataAccess ventaDataAccess)
+    {
+        _ventaDataAccess = ventaDataAccess;
+    }
+
     public void InsertarVenta(Venta venta)
     {
         // Código para insertar una venta en la base de datos
@@ -34,7 +42,7 @@ public class VentaServices
     public Venta ObtenerVentaPorId(int idVenta)
     {
         // Código para obtener una venta por su ID de la base de datos
-        return new Venta();
+        return _ventaDataAccess.GetOneVenta(idVenta);
     }
 
     public Venta ObtenerVentasBy(string filter)

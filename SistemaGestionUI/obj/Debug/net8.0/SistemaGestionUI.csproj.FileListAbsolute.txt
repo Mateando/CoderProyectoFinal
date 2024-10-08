@@ -75,3 +75,4 @@ C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaG
 C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionUI\obj\Debug\net8.0\SistemaGestionUI.pdb
 C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionUI\obj\Debug\net8.0\SistemaGestionUI.genruntimeconfig.cache
 C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionUI\obj\Debug\net8.0\ref\SistemaGestionUI.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionUI\obj\Debug\net8.0\SistemaGestionUI.sourcelink.json

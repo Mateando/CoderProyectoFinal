@@ -16,7 +16,11 @@ public static class ConfigureServices
     public static IServiceCollection ConfigureDataLayer(this IServiceCollection services)
     {
         services.AddDbContext<CoderHouseContext>();
-        services.AddDbContext<CoderHouseContext>();
+
+        services.AddScoped<ProductosDataAccess>();
+        services.AddScoped<UsuariosDataAccess>();
+        services.AddScoped<VentaDataAccess>();
+        services.AddScoped<ProductoVendidoDataAccess>();
 
         return services;
     }

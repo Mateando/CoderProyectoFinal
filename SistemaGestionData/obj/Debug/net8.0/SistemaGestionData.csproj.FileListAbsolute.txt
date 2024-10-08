@@ -15,3 +15,4 @@ C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaG
 C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\SistemaGestionData.pdb
 C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\SistemaGestionData.genruntimeconfig.cache
 C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\ref\SistemaGestionData.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionData\obj\Debug\net8.0\SistemaGestionData.sourcelink.json
