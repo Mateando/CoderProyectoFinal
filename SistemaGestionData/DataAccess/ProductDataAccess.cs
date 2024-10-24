@@ -8,6 +8,7 @@ using SistemaGestionEntities;
 
 namespace SistemaGestionData.DataAccess;
 
+// Esta clase se encarga de gestionar los datos de la entidad Producto.
 public class ProductDataAccess
 {
     private CoderHouseContext _context;
@@ -19,21 +20,31 @@ public class ProductDataAccess
 
     public List<Product> GetProducts()
     {
-        return _context.Products.ToList();
+        // Código para obtener todos los productos de la base de datos
+        return _context.Products
+            .AsQueryable()
+            .ToList();
     }
 
     public List<Product> GetProductsBy(string filtro)
     {
-        return _context.Products.Where(product => product.Category.Contains(filtro)).ToList();
+        // Código para obtener los productos que coincidan con el filtro
+        return _context.Products
+            .AsQueryable()
+            .Where(product => product.Category.Contains(filtro))
+            .ToList();
     }
 
     public Product? GetOneProduct(int id)
     {
+        // Código para obtener un producto de la base de datos
         return _context.Products.FirstOrDefault(product => product.Id == id);
     }
 
     public void UpdateProduct(int id, Product product)
     {
+        // Código para actualizar un producto en la base de datos
+        //valido que el producto exista
         Product? productToEdit = GetOneProduct(id);
         if (productToEdit != null)
         {
@@ -49,12 +60,20 @@ public class ProductDataAccess
     }
     public void InsertProduct(Product product)
     {
+        // Código para insertar un producto en la base de datos
+        //valido que el producto no exista
+        if (_context.Products.Any(p => p.Id == product.Id))
+        {
+            throw new Exception("El producto ya existe");
+        }
         _context.Products.Add(product);
         _context.SaveChanges();
     }
 
     public void DeleteProduct(int id)
     {
+        // Código para eliminar un producto de la base de datos
+        //valido que el producto exista
         Product? productToDelete= GetOneProduct(id);
         if (productToDelete != null)
         {
@@ -65,6 +84,8 @@ public class ProductDataAccess
 
     public void UpdateTotalPrice(int id)
     {
+        // Código para actualizar el precio total de un producto
+        //valido que el producto exista
         Product? product = GetOneProduct(id);
         if (product != null)
         {
@@ -75,6 +96,8 @@ public class ProductDataAccess
 
     public void UpdateTotalProducts()
     {
+        // Código para actualizar el precio total de todos los productos
+        //obtengo todos los productos
         var products = GetProducts();
         foreach (var product in products)
         {
