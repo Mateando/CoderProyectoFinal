@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SistemaGestionUI.bundle.scp.css",
+      "Id": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SistemaGestionUI.bundle.scp.css",
       "PackagePath": "staticwebassets\\SistemaGestionUI.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\app.css",
+      "Id": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\favicon.png",
+      "Id": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

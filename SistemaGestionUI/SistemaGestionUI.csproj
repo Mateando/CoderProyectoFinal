@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Forms" Version="8.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SistemaGestionBussiness\SistemaGestionBussiness.csproj" />
     <ProjectReference Include="..\SistemaGestionEntities\SistemaGestionEntities.csproj" />
   </ItemGroup>

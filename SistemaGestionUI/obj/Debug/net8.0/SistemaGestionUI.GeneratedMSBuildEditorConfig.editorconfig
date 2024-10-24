@@ -9,103 +9,103 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SistemaGestionUI
 build_property.RootNamespace = SistemaGestionUI
-build_property.ProjectDir = C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionUI\
+build_property.ProjectDir = F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionUI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionUI
+build_property.MSBuildProjectDirectory = F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/App.razor]
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Error.razor]
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Home.razor]
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/ProductosVendidos/CreateProductoVendido.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0b3NWZW5kaWRvc1xDcmVhdGVQcm9kdWN0b1ZlbmRpZG8ucmF6b3I=
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/ProductosVendidos/SellProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0b3NWZW5kaWRvc1xTZWxsUHJvZHVjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/ProductosVendidos/EditProductoVendido.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0b3NWZW5kaWRvc1xFZGl0UHJvZHVjdG9WZW5kaWRvLnJhem9y
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/ProductosVendidos/SellProductCreate.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0b3NWZW5kaWRvc1xTZWxsUHJvZHVjdENyZWF0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/ProductosVendidos/ProductosVendidos.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0b3NWZW5kaWRvc1xQcm9kdWN0b3NWZW5kaWRvcy5yYXpvcg==
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/ProductosVendidos/SellProductEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0b3NWZW5kaWRvc1xTZWxsUHJvZHVjdEVkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/ProductosVendidos/ProductosVendidosForm.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0b3NWZW5kaWRvc1xQcm9kdWN0b3NWZW5kaWRvc0Zvcm0ucmF6b3I=
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/ProductosVendidos/SellProductForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0b3NWZW5kaWRvc1xTZWxsUHJvZHVjdEZvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Productos/CreateProducto.razor]
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Productos/CreateProducto.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0b3NcQ3JlYXRlUHJvZHVjdG8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Productos/EditProducto.razor]
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Productos/EditProducto.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0b3NcRWRpdFByb2R1Y3RvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Productos/Productos.razor]
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Productos/Productos.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0b3NcUHJvZHVjdG9zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Productos/ProductosForm.razor]
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Productos/ProductosForm.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0b3NcUHJvZHVjdG9zRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Usuarios/CreateUsuario.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVc3Vhcmlvc1xDcmVhdGVVc3VhcmlvLnJhem9y
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Usuarios/Users.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVc3Vhcmlvc1xVc2Vycy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Usuarios/EditUsuario.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVc3Vhcmlvc1xFZGl0VXN1YXJpby5yYXpvcg==
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Usuarios/UsersCreate.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVc3Vhcmlvc1xVc2Vyc0NyZWF0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Usuarios/Usuarios.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVc3Vhcmlvc1xVc3Vhcmlvcy5yYXpvcg==
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Usuarios/UsersEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVc3Vhcmlvc1xVc2Vyc0VkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Usuarios/UsuariosForm.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVc3Vhcmlvc1xVc3Vhcmlvc0Zvcm0ucmF6b3I=
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Usuarios/UsersForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVc3Vhcmlvc1xVc2Vyc0Zvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Ventas/CreateVenta.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWZW50YXNcQ3JlYXRlVmVudGEucmF6b3I=
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Ventas/Sells.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWZW50YXNcU2VsbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Ventas/EditVenta.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWZW50YXNcRWRpdFZlbnRhLnJhem9y
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Ventas/SellsCreate.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWZW50YXNcU2VsbHNDcmVhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Ventas/Ventas.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWZW50YXNcVmVudGFzLnJhem9y
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Ventas/SellsEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWZW50YXNcU2VsbHNFZGl0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Ventas/VentasForm.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWZW50YXNcVmVudGFzRm9ybS5yYXpvcg==
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Pages/Ventas/SellsForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWZW50YXNcU2VsbHNGb3JtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Routes.razor]
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/_Imports.razor]
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Layout/MainLayout.razor]
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-yyw7a7270m
 
-[C:/Users/achim/OneDrive/Escritorio/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Layout/NavMenu.razor]
+[F:/Curso C\#/Oscar-Vazquez-ProyectoFinal/SistemaGestionUI/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-bd1a3nmsia

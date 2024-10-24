@@ -21,7 +21,7 @@ namespace SistemaGestionData.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("SistemaGestionEntities.Producto", b =>
+            modelBuilder.Entity("SistemaGestionEntities.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -53,10 +53,10 @@ namespace SistemaGestionData.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Productos");
+                    b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("SistemaGestionEntities.ProductoVendido", b =>
+            modelBuilder.Entity("SistemaGestionEntities.SellEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -64,10 +64,30 @@ namespace SistemaGestionData.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("IdProducto")
+                    b.Property<string>("Comments")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.Property<int>("IdVenta")
+                    b.HasKey("Id");
+
+                    b.ToTable("Sells");
+                });
+
+            modelBuilder.Entity("SistemaGestionEntities.SellProductEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SellId")
                         .HasColumnType("int");
 
                     b.Property<int>("Stock")
@@ -75,10 +95,10 @@ namespace SistemaGestionData.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ProductosVendidos");
+                    b.ToTable("SellProducts");
                 });
 
-            modelBuilder.Entity("SistemaGestionEntities.Usuario", b =>
+            modelBuilder.Entity("SistemaGestionEntities.UserEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -108,27 +128,7 @@ namespace SistemaGestionData.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios");
-                });
-
-            modelBuilder.Entity("SistemaGestionEntities.Venta", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Comments")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("IdUsuario")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Ventas");
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

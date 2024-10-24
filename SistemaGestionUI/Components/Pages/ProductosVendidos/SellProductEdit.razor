@@ -1,0 +1,31 @@
+﻿@page "/sellProduct/{id:int}/edit"
+@inject SellProductsServices Service
+
+<h3>Edit Producto Vendido</h3>
+
+@if (sellProduct == null)
+{
+    <p>No existe el producto</p>
+}
+else
+{
+    <div class="card">
+        <div class="card-body">
+            <SellProductForm sellProduct="sellProduct" />
+        </div>
+    </div>
+}
+
+@code {
+
+    [Parameter]
+    public int Id { get; set; }
+
+    private SellProductEntity? sellProduct;
+
+    protected override void OnInitialized()
+    {
+
+        sellProduct = Service.GetOneSellProduct(Id);
+    }
+}

@@ -1,0 +1,26 @@
+﻿@page "/users/{id:int}/edit"
+@inject UserServices Service
+
+<h3>Editar Usuario</h3>
+
+@if (user == null)
+{
+    <p>Usuario no encontrado</p>
+}
+else
+{
+    <UsersForm user = "user" />
+}
+
+@code {
+
+    [Parameter]
+    public int Id { get; set; }
+
+    private UserEntity? user;
+
+    protected override void OnInitialized()
+    {
+        user = Service.GetOneUser(Id);
+    }
+}

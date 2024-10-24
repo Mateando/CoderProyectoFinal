@@ -1,12 +1,12 @@
 ﻿@page "/productos"
-@inject ProductosServices Service
+@inject ProductsServices Service
 
 <h3>Productos</h3>
 <div class="container">
     <div class="row">
         <div class="col-6">
-            <a href="/productos/new">
-                <button type="button" class="btn btn-success">Crear</button>
+            <a href="/productos/new" class="btn btn-success">
+                Crear
             </a>
         </div>
         <div class="col-6">
@@ -32,7 +32,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (Producto producto in productos)
+                @foreach (Product producto in productos)
                 {
                     <tr>
                         <td>@producto.Id</td>
@@ -43,7 +43,7 @@
                         <td>@producto.TotalPrice</td>
                         <td>@producto.Category</td>
                         <td>
-                            <a href="/productos/@producto.Id/Editar">Editar</a>
+                            <a href="/productos/@producto.Id/Editar" class="btn btn-primary" >Editar</a>
                         </td>
                         <td>
                             <button @onclick="@(() => EliminarProducto(producto.Id))" class="btn btn-danger">
@@ -61,24 +61,24 @@
 
 
 @code {
-    private List<Producto> productos = [];
+    private List<Product> productos = [];
 
     private string filtro = string.Empty;
 
     protected override void OnInitialized()
     {
 
-        productos = Service.GetProductos();
+        productos = Service.GetProducts();
     }
 
     public void EliminarProducto(int id)
     {
-        Service.DeleteProducto(id);
-        productos = Service.GetProductos();
+        Service.DeleteProduct(id);
+        productos = Service.GetProducts();
     }
 
     public void Buscar()
     {
-        productos = Service.GetProductosBy(filtro);
+        productos = Service.GetProductBy(filtro);
     }
 }

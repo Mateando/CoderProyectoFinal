@@ -1,0 +1,58 @@
+﻿@inject NavigationManager NavigationManager
+@inject SellProductsServices Service
+
+<EditForm Model="sellProduct"
+          OnValidSubmit="CrearOActualizarProducto" 
+    FormName="sellProduct-form">
+
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="productId">Id Producto</label>
+        <InputNumber type="number" class="form-control" id="productId" 
+            @bind-Value="sellProduct.ProductId" />
+    </div>
+
+    <div class="form-group">
+        <label for="stock">Stock</label>
+        <InputNumber type="number" class="form-control" id="stock" 
+            @bind-Value="sellProduct.Stock" />
+    </div>
+
+    <div class="form-group">
+        <label for="sellId">Id Venta</label>
+        <InputNumber type="number" class="form-control" id="sellId" 
+        @bind-Value="sellProduct.SellId" />
+    </div>
+    
+    <br />
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</EditForm>
+
+@code {
+
+
+    [Parameter]
+    public SellProductEntity sellProduct { get; set; } = null!;
+
+    protected override void OnInitialized()
+    {
+
+    }
+
+    public void CrearOActualizarProducto()
+    {
+        if (sellProduct.Id > 0)
+        {
+            Service.sellProductUpdate(sellProduct.Id, sellProduct);
+        } 
+        else
+        {
+            Service.SellProductInsert(sellProduct);
+        }
+
+        NavigationManager.NavigateTo("/sellproduct");
+    }
+}

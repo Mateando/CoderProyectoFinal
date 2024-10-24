@@ -1,0 +1,83 @@
+﻿@page "/sellproduct"
+@inject SellProductsServices Service
+
+<h3>Productos Vendidos</h3>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <a href="/sellproduct/new" class="btn btn-success">
+                Crear
+            </a>
+        </div>
+        <div class="col-6">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Filtrar por..." @bind="filtro" />
+                <button type="button" class="btn btn-outline-secondary" @onclick="Find">
+                    Buscar
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Id Producto</th>
+                    <th>Stock</th>
+                    <th>Id Venta</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (SellProductEntity product in products)
+                {
+                    <tr>
+                        <td>@product.Id</td>
+                        <td>@product.ProductId</td>
+                        <td>@product.Stock</td>
+                        <td>@product.SellId</td>
+                        <td>
+                            <a href="/sellproduct/@product.Id/edit" class="btn btn-primary" >
+                                Editar
+                            </a>
+                        </td>
+                        <td>
+                            <button @onclick="@(() => DeleteSellProduct(product.Id))" class="btn btn-danger">
+                                Eliminar
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+
+@code {
+    private List<SellProductEntity> products = [];
+
+    private string filtro = string.Empty;
+
+    protected override void OnInitialized()
+    {
+
+        products = Service.GetSellProducts();
+    }
+
+    public void DeleteSellProduct(int id)
+    {
+        Service.DeleteSellProduct(id);
+        products = Service.GetSellProducts();
+    }
+
+    public void Find()
+    {
+        products = Service.GetSellProductBy(filtro);
+    }
+}

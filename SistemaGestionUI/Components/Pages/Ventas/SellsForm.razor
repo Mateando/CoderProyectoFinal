@@ -1,0 +1,45 @@
+﻿@inject NavigationManager NavigationManager
+@inject SellServices Service
+
+<EditForm Model="sell" OnValidSubmit="CrearOActualizarVenta" FormName="sells-form">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    
+    <div class="form-group">
+        <label for="comments">Comentarios</label>
+        <InputText type="text" class="form-control" id="comments" @bind-Value="sell.Comments" />
+    </div>
+
+    <div class="form-group">
+        <label for="userId">Id del Usaurio</label>
+        <InputNumber type="number" class="form-control" id="userId" @bind-Value="sell.UserId" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</EditForm>
+
+
+@code {
+    [Parameter]
+    public SellEntity? sell { get; set; } = null!;
+
+    protected override void OnInitialized()
+    {
+
+    }
+
+    public void CrearOActualizarVenta()
+    {
+        if (sell.Id > 0)
+        {
+            Service.SellUpdate(sell.Id, sell);
+        } 
+        else
+        {
+            Service.SellInsert(sell);
+        }
+
+        NavigationManager.NavigateTo("/sells");
+    }
+}

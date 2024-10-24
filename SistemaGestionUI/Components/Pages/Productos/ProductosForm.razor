@@ -1,5 +1,5 @@
 ﻿@inject NavigationManager NavigationManager
-@inject ProductosServices Service
+@inject ProductsServices Service
 
 <EditForm Model="Producto" OnValidSubmit="CrearOActualizarProducto" FormName="productos-form">
     <DataAnnotationsValidator />
@@ -33,6 +33,7 @@
         <label for="category">Categoria</label>
         <InputText type="text" class="form-control" id="categoria" @bind-Value="Producto.Category" />
     </div>
+    <br />
     <button type="submit" class="btn btn-primary">Guardar</button>
 </EditForm>
 
@@ -40,7 +41,7 @@
 
 
     [Parameter]
-    public Producto Producto { get; set; } = null!;
+    public Product Producto { get; set; } = null!;
 
     protected override void OnInitialized()
     {
@@ -51,11 +52,11 @@
     {
         if(Producto.Id > 0)
         {
-            Service.UpdateProducto(Producto.Id, Producto);
+            Service.UpdateProduct(Producto.Id, Producto);
         } 
         else
         {
-            Service.InsertProducto(Producto);
+            Service.InsertProduct(Producto);
         }
 
         NavigationManager.NavigateTo("/productos");

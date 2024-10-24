@@ -9,3 +9,16 @@ C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaG
 C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\refint\SistemaGestionEntities.dll
 C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.pdb
 C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\ref\SistemaGestionEntities.dll
+C:\Users\achim\OneDrive\Escritorio\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.sourcelink.json
+F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\bin\Debug\net8.0\SistemaGestionEntities.deps.json
+F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\bin\Debug\net8.0\SistemaGestionEntities.dll
+F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\bin\Debug\net8.0\SistemaGestionEntities.pdb
+F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.GeneratedMSBuildEditorConfig.editorconfig
+F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.AssemblyInfoInputs.cache
+F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.AssemblyInfo.cs
+F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.csproj.CoreCompileInputs.cache
+F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.sourcelink.json
+F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.dll
+F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\refint\SistemaGestionEntities.dll
+F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\SistemaGestionEntities.pdb
+F:\Curso C#\Oscar-Vazquez-ProyectoFinal\SistemaGestionEntities\obj\Debug\net8.0\ref\SistemaGestionEntities.dll

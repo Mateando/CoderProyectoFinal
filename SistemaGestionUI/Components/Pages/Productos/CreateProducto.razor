@@ -1,7 +1,12 @@
 ﻿@page "/productos/new"
 
 <h3>CreateProducto</h3>
-<ProductosForm Producto="NuevoProducto" />
+<div class="card">
+    <div class="card-body">
+        <ProductosForm Producto="NuevoProducto" />
+    </div>
+</div>
+
 @code {
-    private Producto NuevoProducto = new();
+    private Product NuevoProducto = new();
 }

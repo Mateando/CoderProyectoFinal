@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NMymvtmQN0h3PPVBb3W4aVxcKSgx0kFIZeXWuYaz/2s=",
+  "Hash": "/tpMwDR4NK/Y5cG3UB2adVlf2BCNPTySPEIIrZhTnxk=",
   "Source": "SistemaGestionUI",
   "BasePath": "_content/SistemaGestionUI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SistemaGestionUI\\wwwroot",
       "Source": "SistemaGestionUI",
-      "ContentRoot": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\",
+      "ContentRoot": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\",
       "BasePath": "_content/SistemaGestionUI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SistemaGestionUI.styles.css",
+      "Identity": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SistemaGestionUI.styles.css",
       "SourceId": "SistemaGestionUI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/SistemaGestionUI",
       "RelativePath": "SistemaGestionUI.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SistemaGestionUI.styles.css"
+      "OriginalItemSpec": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SistemaGestionUI.styles.css"
     },
     {
-      "Identity": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SistemaGestionUI.bundle.scp.css",
+      "Identity": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SistemaGestionUI.bundle.scp.css",
       "SourceId": "SistemaGestionUI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/SistemaGestionUI",
       "RelativePath": "SistemaGestionUI.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SistemaGestionUI.bundle.scp.css"
+      "OriginalItemSpec": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SistemaGestionUI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\app.css",
+      "Identity": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\app.css",
       "SourceId": "SistemaGestionUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\",
+      "ContentRoot": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\",
       "BasePath": "_content/SistemaGestionUI",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "SistemaGestionUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\",
+      "ContentRoot": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\",
       "BasePath": "_content/SistemaGestionUI",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "SistemaGestionUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\",
+      "ContentRoot": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\",
       "BasePath": "_content/SistemaGestionUI",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\favicon.png",
+      "Identity": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\favicon.png",
       "SourceId": "SistemaGestionUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\",
+      "ContentRoot": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\wwwroot\\",
       "BasePath": "_content/SistemaGestionUI",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

@@ -1,0 +1,13 @@
+﻿@page "/sellproduct/new"
+
+<h3>Crear nuevo Producto Vendido</h3>
+
+<div class="card">
+    <div class="card-body">
+        <SellProductForm sellProduct = "newSellProduct" />
+    </div>
+</div>
+
+@code {
+    private SellProductEntity newSellProduct = new();
+}

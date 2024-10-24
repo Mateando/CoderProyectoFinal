@@ -1,0 +1,10 @@
+﻿@page "/users/new"
+
+<h3>Crear Usuario</h3>
+
+<UsersForm user = "newUser" />
+
+@code 
+{
+    private UserEntity newUser = new();
+}

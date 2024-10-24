@@ -17,10 +17,10 @@ public static class ConfigureServices
     {
         services.ConfigureDataLayer();
 
-        services.AddScoped<ProductosServices>();
-        services.AddScoped<UsuarioServices>();
-        services.AddScoped<VentaServices>();
-        services.AddScoped<ProductoVendidoServices>();
+        services.AddScoped<ProductsServices>();
+        services.AddScoped<UserServices>();
+        services.AddScoped<SellServices>();
+        services.AddScoped<SellProductsServices>();
 
         
 

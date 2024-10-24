@@ -3,7 +3,6 @@
 using Microsoft.EntityFrameworkCore;
 using SistemaGestionEntities;
 
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +13,7 @@ namespace SistemaGestionData.Context;
 
 public class CoderHouseContext : DbContext
 {
-    public DbSet<Producto> Productos { get; set; }
+    public DbSet<Product> Products { get; set; }
 
     public CoderHouseContext() : base()
     {
@@ -28,12 +27,11 @@ public class CoderHouseContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseSqlServer("Server=WIN11-OMV\\SQL2022;Initial Catalog=CoderProyectoFinal;Integrated Security=True;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=PENTANB58\\SQL2022;Initial Catalog=CoderProyectoFinal;Integrated Security=True;TrustServerCertificate=True");
         }
     }
 
-    public DbSet<Usuario> Usuarios { get; set; }
-    
-    public DbSet<ProductoVendido> ProductosVendidos { get; set; }
-    public DbSet<Venta> Ventas { get; set; }
+    public DbSet<UserEntity> Users { get; set; }
+    public DbSet<SellProductEntity> SellProducts { get; set; }
+    public DbSet<SellEntity> Sells { get; set; }
 }

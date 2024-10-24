@@ -1,7 +1,7 @@
 ﻿@page "/productos/{id:int}/editar"
-@inject ProductosServices Service
+@inject ProductsServices Service
 
-<h3>EditProducto</h3>
+<h3>Edicion de Productos</h3>
 
 @if (producto == null)
 {
@@ -9,7 +9,11 @@
 }
 else
 {
-    <ProductosForm Producto="producto" />
+    <div class="card">
+        <div class="card-body">
+            <ProductosForm Producto = "producto" />
+        </div>
+    </div>
 }
 
 @code {
@@ -17,11 +21,11 @@ else
     [Parameter]
     public int Id { get; set; }
 
-    private Producto? producto;
+    private Product? producto;
 
     protected override void OnInitialized()
     {
-        producto = Service.GetOneProducto(Id);
+        producto = Service.GetOneProduct(Id);
     }
 }
 

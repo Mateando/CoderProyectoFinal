@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\",
+  "WorkspaceRootPath": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E81EEF2-94A7-40A1-A917-BB5D582D5B91}|SistemaGestionUI\\SistemaGestionUI.csproj|c:\\users\\achim\\onedrive\\escritorio\\curso c#\\oscar-vazquez-proyectofinal\\sistemagestionui\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3E81EEF2-94A7-40A1-A917-BB5D582D5B91}|SistemaGestionUI\\SistemaGestionUI.csproj|solutionrelative:sistemagestionui\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E81EEF2-94A7-40A1-A917-BB5D582D5B91}|SistemaGestionUI\\SistemaGestionUI.csproj|c:\\users\\achim\\onedrive\\escritorio\\curso c#\\oscar-vazquez-proyectofinal\\sistemagestionui\\components\\pages\\productos\\productos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3E81EEF2-94A7-40A1-A917-BB5D582D5B91}|SistemaGestionUI\\SistemaGestionUI.csproj|solutionrelative:sistemagestionui\\components\\pages\\productos\\productos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B56A7EDA-A20A-4F14-83C4-76008D6CA532}|SistemaGestionData\\SistemaGestionData.csproj|f:\\curso c#\\oscar-vazquez-proyectofinal\\sistemagestiondata\\context\\coderhousecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B56A7EDA-A20A-4F14-83C4-76008D6CA532}|SistemaGestionData\\SistemaGestionData.csproj|solutionrelative:sistemagestiondata\\context\\coderhousecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "SistemaGestionUI\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "SistemaGestionUI\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCMAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T02:40:43.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Productos.razor",
-              "DocumentMoniker": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\Components\\Pages\\Productos\\Productos.razor",
-              "RelativeDocumentMoniker": "SistemaGestionUI\\Components\\Pages\\Productos\\Productos.razor",
-              "ToolTip": "C:\\Users\\achim\\OneDrive\\Escritorio\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionUI\\Components\\Pages\\Productos\\Productos.razor",
-              "RelativeToolTip": "SistemaGestionUI\\Components\\Pages\\Productos\\Productos.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T02:39:58.226Z",
+              "Title": "CoderHouseContext.cs",
+              "DocumentMoniker": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionData\\Context\\CoderHouseContext.cs",
+              "RelativeDocumentMoniker": "SistemaGestionData\\Context\\CoderHouseContext.cs",
+              "ToolTip": "F:\\Curso C#\\Oscar-Vazquez-ProyectoFinal\\SistemaGestionData\\Context\\CoderHouseContext.cs",
+              "RelativeToolTip": "SistemaGestionData\\Context\\CoderHouseContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA9wCIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T00:44:54.626Z",
               "EditorCaption": ""
             }
           ]
